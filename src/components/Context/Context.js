@@ -41,6 +41,10 @@ export const ContextProvider = ({ children }) => {
     dispatch({ type: 'CLOSE_ALERT' })
   }
 
+  value.setGoods =(data) => {
+    dispatch({type: 'SET_GOODS', payload: data})
+  }
+
   return (
     <ShopContext.Provider value={value}>{children}</ShopContext.Provider>
   );
