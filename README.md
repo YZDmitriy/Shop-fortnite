@@ -1,4 +1,4 @@
-# Shop Fortune
+# Shop Fortnite
 
 
 ![](https://github.com/YZDmitriy/Shop-fortnite/blob/master/public/react_shop.png)
