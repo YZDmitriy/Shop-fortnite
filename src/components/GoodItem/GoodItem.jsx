@@ -1,4 +1,6 @@
 import React from 'react';
+import { useContext } from 'react';
+import { ShopContext } from '../Context/Context';
 
 function GoodItem(props) {
 
@@ -8,8 +10,9 @@ function GoodItem(props) {
         description,
         price,
         full_background,
-        addToBasket = Function.prototype
     } = props;
+
+    const {addToBasket} = useContext(ShopContext)
 
   return (
     <div className='card'>
